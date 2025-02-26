@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/****************************/
+/* navigation SECTION*/
+/****************************/
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  color: #f9f9f9;
+  pointer-events: none;
+  margin-right: 15rem;
+  margin-left: 8rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #f9f9f9;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.navigation a:hover,
+.navigation a.active {
+  color: rgb(48, 43, 43);
+}
+
+.login-icon {
+  width: 40px;
+  color: #f9f9f9;
+  margin-left: 20rem;
+}
+.login-icon:hover {
+  color: rgb(48, 43, 43);
+}
+
+/****************************/
+/* HERO SECTION*/
+/****************************/
+
+.hero {
+  background-image: url("images/hero-image.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.hero-content {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #080808;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #080808;
+}
+
+.cta-button {
+  text-decoration: none;
+  background-color: orangered;
+  color: rgb(43, 37, 37);
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cta-button:hover {
+  background-color: rgb(56, 48, 48);
+  color: orangered;
+}
